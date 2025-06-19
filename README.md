@@ -6,7 +6,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
-# Load the dataset
 iris = load_iris()
 X = iris.data
 Y = iris.target
